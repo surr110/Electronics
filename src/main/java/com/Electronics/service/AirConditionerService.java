@@ -15,8 +15,8 @@ public class AirConditionerService {
 	@Autowired
 	AirConditionerDao ad;
 
-	public String setAc(AirConditioner a) {
-		return ad.setAc(a);
+	public String setAcs(AirConditioner a) {
+		return ad.setAcs(a);
 	}
 
 	public List<AirConditioner> getAc() {

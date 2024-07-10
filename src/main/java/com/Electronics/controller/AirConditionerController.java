@@ -20,9 +20,9 @@ public class AirConditionerController {
 	@Autowired
 	AirConditionerService as;
 
-	@PostMapping(value = "/set")
-	public String setAc(@RequestBody AirConditioner a) {
-		return as.setAc(a);
+	@PostMapping(value = "/setting")
+	public String setAcs(@RequestBody AirConditioner a) {
+		return as.setAcs(a);
 
 	}
 

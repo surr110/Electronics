@@ -13,7 +13,7 @@ public class AirConditionerDao {
 	@Autowired
 	AirConditionerRepo ar;
 
-	public String setAc(AirConditioner a) {
+	public String setAcs(AirConditioner a) {
 		ar.save(a);
 		return "Saved successfully";
 	}
